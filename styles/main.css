@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+}
+
+#app {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left, .right {
+    border: 2px dotted red;
+}
+
+.left {
+    flex-grow: 2;
+    flex-basis: 100px;
+}
+
+.rignt {
+    flex-grow: 1;
+    flex-basis: 10px;
+}
