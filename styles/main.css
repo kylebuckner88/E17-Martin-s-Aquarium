@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: turquoise;
 }
 
 #app {
@@ -8,15 +8,78 @@ body {
 }
 
 .left, .right {
-    border: 2px dotted red;
+    border: 2px solid black;
+    width: 30%;
 }
 
 .left {
-    flex-grow: 2;
-    flex-basis: 100px;
+    flex: 2 10px;
 }
 
 .rignt {
-    flex-grow: 1;
-    flex-basis: 10px;
+   flex: 1 10px;
+}
+
+h1 {
+    font-size: 52pt;
+    margin: 16px;
+}
+
+h2 {
+    font-size: 32pt;
+    margin: 1rem;
+}
+
+h4 {
+    font-size: 20pt;
+    margin: 1rem;
+}
+
+p {
+    margin: 1rem;
+    font-size: 14pt;
+}
+
+img {
+    margin: 10px 20px;
+    border: 2px solid black;
+    width: 10rem;
+}
+q {
+    margin: 1rem;
+    display: inline-block;
+    font-size: 14pt;
+    font-style: italic;
+    justify-content: space-evenly;
+}
+
+h5 {
+    border-style: 2px solid black;
+    font-size: 24pt;
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+.location {
+    font-size: 14pt;
+}
+
+h6 {
+    font-size: 14pt;
+    margin: 1rem; 
+}
+
+h3 {
+    font-size: 32pt;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+ul {
+    font-size: 14pt;
+}
+
+li {
+    margin: 1rem;
 }
